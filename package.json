@@ -38,8 +38,7 @@
     "lint:fix": "tsc --noEmit && prettier --write \"src/**/*.{ts,tsx,js,json,css,yml,md}\" && eslint 'src/**/*.{js,ts,tsx,json}' --quiet --fix",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "postinstall": "npm install && npm run tsup && yarn build:esm && yarn build:iife && yarn build:dts",
-    "prepare": "npm run build && cp -r dist/* ./dist"
+    "postinstall": "npm run build"
   },
   "size-limit": [
     {
