@@ -50,8 +50,7 @@
     }
   ],
   "peerDependencies": {
-    "qs": "^6.11.2",
-    "starknet": "^5.19.5"
+    "qs": "^6.11.2"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "7.23.0",
