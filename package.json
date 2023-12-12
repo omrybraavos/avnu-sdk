@@ -16,7 +16,7 @@
     "swap"
   ],
   "homepage": "https://github.com/avnu-labs/avnu-sdk#readme",
-  "repository": "https://github.com/avnu-labs/avnu-sdk.git",
+  "repository": "https://github.com/omrybraavos/avnu-sdk.git",
   "bugs": {
     "url": "https://github.com/avnu-labs/avnu-sdk/issues/new?template=bug_report.yml&title=[bug]+<replace+this+with+a+title>"
   },
