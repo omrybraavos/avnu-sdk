@@ -1,5 +1,5 @@
 {
-  "name": "omry-avnu-sdk",
+  "name": "omry-avnu",
   "version": "1.2.4",
   "description": "TypeScript SDK for building exchange functionality on Layers 2 with the AVNU API",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "swap"
   ],
   "homepage": "https://github.com/avnu-labs/avnu-sdk#readme",
-  "repository": "https://github.com/omrybraavos/avnu-sdk.git",
+  "repository": "https://github.com/avnu-labs/avnu-sdk.git",
   "bugs": {
     "url": "https://github.com/avnu-labs/avnu-sdk/issues/new?template=bug_report.yml&title=[bug]+<replace+this+with+a+title>"
   },
@@ -50,7 +50,9 @@
     }
   ],
   "peerDependencies": {
-    "qs": "^6.11.2"
+    "ethers": "^6.8.1",
+    "qs": "^6.11.2",
+    "starknet": "^5.19.5"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "7.23.0",
